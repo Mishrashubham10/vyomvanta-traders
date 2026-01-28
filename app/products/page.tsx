@@ -1,23 +1,19 @@
-"use client";
+'use client';
 
 import { useCart } from '@/context/CartContext';
-import { notFound } from 'next/navigation';
 import { categories } from '@/data/products';
 import ProductsClient from './_ProductClient';
 
 export default function ProductPage() {
   const { products } = useCart();
 
-  console.log('Products here', products);
-
-  if (!products) {
-    notFound();
+  if (!products || products.length === 0) {
+    return (
+      <div className="p-6 text-center">
+        <h2 className="text-xl font-semibold">No products found</h2>
+      </div>
+    );
   }
 
-  return (
-    <ProductsClient
-      products={products}
-      categories={categories}
-    />
-  );
+  return <ProductsClient products={products} categories={categories} />;
 }
