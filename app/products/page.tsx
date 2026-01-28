@@ -3,6 +3,7 @@
 import { useCart } from '@/context/CartContext';
 import { categories } from '@/data/products';
 import ProductsClient from './_ProductClient';
+import React from 'react';
 
 export default function ProductPage() {
   const { products } = useCart();
@@ -15,5 +16,9 @@ export default function ProductPage() {
     );
   }
 
-  return <ProductsClient products={products} categories={categories} />;
+  return (
+    <React.Suspense fallback={null}>
+      <ProductsClient products={products} categories={categories} />
+    </React.Suspense>
+  );
 }

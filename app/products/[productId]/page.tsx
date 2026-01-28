@@ -23,7 +23,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { ProductCard } from '@/components/products/ProductCard';
 
-export default function ProductPage() {
+export default function ProductDetailsPage() {
   const { productId } = useParams<{ productId: string }>();
   const [quantity, setQuantity] = useState(1);
   const { addToCart } = useCart();
