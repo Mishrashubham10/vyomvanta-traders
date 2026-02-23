@@ -13,25 +13,25 @@ const contactInfo = [
     icon: MapPin,
     title: 'Visit Us',
     details: [
-      '123 Toy Street, Playtown',
-      'Mumbai, Maharashtra 400001',
-      'India',
+      '374 B/12 BMC Retail Market Chikwadi',
+      'opp phoenix hospital borivali west 400092',
+      'Mumbai, India',
     ],
   },
   {
     icon: Phone,
     title: 'Call Us',
-    details: ['+91 98765 43210', '+91 98765 43211'],
+    details: ['+91 8097264266'],
   },
   {
     icon: Mail,
     title: 'Email Us',
-    details: ['hello@vyomvanta.com', 'support@vyomvanta.com'],
+    details: ['vyomvantatrapvtltd@gmail.com'],
   },
   {
     icon: Clock,
     title: 'Business Hours',
-    details: ['Mon - Sat: 10:00 AM - 8:00 PM', 'Sunday: 11:00 AM - 6:00 PM'],
+    details: ['Mon - Sat: 10:00 AM - 6:00 PM', 'Sunday: 11:00 AM - 4:00 PM'],
   },
 ];
 
