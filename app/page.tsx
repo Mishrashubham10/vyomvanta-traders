@@ -80,7 +80,7 @@ export default function HomePage() {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="relative"
             >
-              <div className="relative aspect-[4/3] rounded-3xl overflow-hidden shadow-large">
+              <div className="relative aspect-4/3 rounded-3xl overflow-hidden shadow-large">
                 <Image
                   src={heroImage}
                   alt="Colorful toys collection"

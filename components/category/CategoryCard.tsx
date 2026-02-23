@@ -18,7 +18,7 @@ export function CategoryCard({ category, index = 0 }: CategoryCardProps) {
       transition={{ delay: index * 0.1, duration: 0.4 }}
     >
       <Link
-        href={`/shop?category=${category.id}`}
+        href={`/products?category=${category.id}`}
         className={cn(
           'block p-6 rounded-2xl bg-linear-to-br transition-all duration-300 hover:shadow-large hover:-translate-y-1',
           category.id === 'budget' &&
