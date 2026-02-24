@@ -127,27 +127,27 @@ export function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 text-primary mt-0.5 shrink-0" />
                 <span className="text-muted-foreground text-sm">
-                  123 Toy Street, Playtown,
+                  374 B/12 BMC Retail Market Chikwadi, opp phoenix hospital,
                   <br />
-                  India - 400001
+                  borivali west - 400092, Mumbai, India
                 </span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="h-5 w-5 text-primary shrink-0" />
                 <a
-                  href="tel:+919876543210"
+                  href="tel:+918097264266"
                   className="text-muted-foreground text-sm hover:text-primary transition-colors"
                 >
-                  +91 98765 43210
+                  +91 8097264266
                 </a>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="h-5 w-5 text-primary shrink-0" />
                 <a
-                  href="mailto:hello@vyomvanta.com"
+                  href="mailto:vyomvantatrapvtltd@gmail.com"
                   className="text-muted-foreground text-sm hover:text-primary transition-colors"
                 >
-                  hello@vyomvanta.com
+                  vyomvantatrapvtltd@gmail.com
                 </a>
               </li>
             </ul>
