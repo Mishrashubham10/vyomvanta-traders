@@ -115,7 +115,7 @@ const sections: Section[] = [
     title: 'Contact Us',
     content: [
       {
-        text: 'If you have questions about this Privacy Policy or our data practices, please contact us at privacy@vyomvanta.com or write to us at: VYOMVANTA TRADERS, 123 Toy Street, Playtown, Mumbai 400001.',
+        text: 'If you have questions about this Privacy Policy or our data practices, please contact us at vyomvantatrapvtltd@gmail.com or write to us at: VYOMVANTA TRADERS, 374 B/12 BMC Retail Market Chikuwadi, opp phoenix hospital borivali west - 400092, Mumbai, India',
       },
     ],
   },
@@ -141,7 +141,7 @@ export default function PrivacyPolicyPage() {
               protect your information.
             </p>
             <p className="text-sm text-muted-foreground mt-4">
-              Last updated: January 1, 2024
+              Last updated: January 1, 2026
             </p>
           </motion.div>
         </div>

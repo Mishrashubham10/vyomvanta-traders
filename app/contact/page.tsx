@@ -13,7 +13,7 @@ const contactInfo = [
     icon: MapPin,
     title: 'Visit Us',
     details: [
-      '374 B/12 BMC Retail Market Chikwadi',
+      '374 B/12 BMC Retail Market Chikuwadi',
       'opp phoenix hospital borivali west 400092',
       'Mumbai, India',
     ],
